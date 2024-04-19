@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev" : "nodemon api/index.js",
-    "start" : "node ai/index.js"
+    "dev": "nodemon api/index.js",
+    "start": "node ai/index.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/Venyad/RealEstateApp#readme",
   "dependencies": {
     "express": "^4.19.2",
+    "mongoose": "^8.3.2",
     "nodemon": "^3.1.0"
   }
 }
